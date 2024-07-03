@@ -16,8 +16,12 @@ if ! type chromedriver >/dev/null 2>&1; then
   exit 1
 fi
 
-# Start chomedriver in the background
-chromedriver --port=4444 &
+# Start chromedriver in the background
+chromedriver \
+  --port=4444 \
+  --remote-debugging-pipe \
+  --remote-debugging-port=9222 \
+  &
 
 # Kill chromedriver child process when we exit
 trap 'kill 0' EXIT
@@ -28,4 +32,4 @@ flutter drive \
   -d web-server \
   --target integration_test/main_test.dart \
   --no-headless \
-  --browser-dimension=800,600
+  --web-browser-flag=--remote-debugging-port=9222
