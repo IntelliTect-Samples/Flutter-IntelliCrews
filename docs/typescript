@@ -1,0 +1,233 @@
+Script started on Wed Jul  3 08:18:09 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter]1;..ource/flutter]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter\[0m[27m[24m[J[01;32m➜  [36mflutter[00m [K[?1h=[?2004hscript recording[16Drm -rf IntelliCrews[19Dcd ..              [14Dflutter --version[17Dcd IntelliCrews  [15Dmv Flutter-IntelliCrews IntelliCrews[36Dgit clone https://github.com/IntelliTect-Samples/Flutter-IntelliCrews.git IntelliCrews[?1l>[?2004l
+]2;git clone https://github.com/IntelliTect-Samples/Flutter-IntelliCrews.git ]1;gitCloning into 'IntelliCrews'...
+warning: You appear to have cloned an empty repository.
+[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter]1;..ource/flutter]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter\[0m[27m[24m[J[01;32m➜  [36mflutter[00m [K[?1h=[?2004hccd IntelliCrews[1m/[0m[0m [?1l>[?2004l
+]2;cd IntelliCrews]1;cd[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter/IntelliCrews]1;../IntelliCrews]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter/IntelliCrews\[0m[27m[24m[J[01;32m➜  [36mIntelliCrews[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m)[00m [Kfflutter create[?1l>[?2004l
+]2;flutter create]1;flutter[31mNo option specified for the output directory.[39m
+[31mCreate a new Flutter project.[39m
+[31m[39m
+[31mIf run on a project that already exists, this will repair the project, recreating any files that are missing.[39m
+[31m[39m
+[31mGlobal options:[39m
+[31m-h, --help                  Print this usage information.[39m
+[31m-v, --verbose               Noisy logging, including all shell commands executed.[39m
+[31m                            If used with "--help", shows hidden options. If used with "flutter doctor", shows additional diagnostic information. (Use "-vv" to force verbose[39m
+[31m                            logging in those cases.)[39m
+[31m-d, --device-id             Target device id or name (prefixes allowed).[39m
+[31m    --version               Reports the version of this tool.[39m
+[31m    --enable-analytics      Enable telemetry reporting each time a flutter or dart command runs.[39m
+[31m    --disable-analytics     Disable telemetry reporting each time a flutter or dart command runs, until it is re-enabled.[39m
+[31m    --suppress-analytics    Suppress analytics reporting for the current CLI invocation.[39m
+[31m[39m
+[31mUsage: flutter create <output directory>[39m
+[31m-h, --help                   Print this usage information.[39m
+[31m    --[no-]pub               Whether to run "flutter pub get" after the project has been created.[39m
+[31m                             (defaults to on)[39m
+[31m    --[no-]offline           When "flutter pub get" is run by the create command, this indicates whether to run it in offline mode or not. In offline mode, it will need to[39m
+[31m                             have all dependencies already available in the pub cache to succeed.[39m
+[31m    --[no-]overwrite         When performing operations, overwrite existing files.[39m
+[31m    --description            The description to use for your new Flutter project. This string ends up in the pubspec.yaml file.[39m
+[31m                             (defaults to "A new Flutter project.")[39m
+[31m    --org                    The organization responsible for your new Flutter project, in reverse domain name notation. This string is used in Java package names and as[39m
+[31m                             prefix in the iOS bundle identifier.[39m
+[31m                             (defaults to "com.example")[39m
+[31m    --project-name           The project name for this new Flutter project. This must be a valid dart package name.[39m
+[31m-i, --ios-language           The language to use for iOS-specific code, either Objective-C (legacy) or Swift (recommended).[39m
+[31m                             [objc, swift (default)][39m
+[31m-a, --android-language       The language to use for Android-specific code, either Java (legacy) or Kotlin (recommended).[39m
+[31m                             [java, kotlin (default)][39m
+[31m    --platforms              The platforms supported by this project. Platform folders (e.g. android/) will be generated in the target project. This argument only works[39m
+[31m                             when "--template" is set to app or plugin. When adding platforms to a plugin project, the pubspec.yaml will be updated with the requested[39m
+[31m                             platform. Adding desktop platforms requires the corresponding desktop config setting to be enabled.[39m
+[31m                             [ios (default), android (default), windows (default), linux (default), macos (default), web (default)][39m
+[31m-t, --template=<type>        Specify the type of project to create.[39m
+[31m[39m
+[31m          [app]              (default) Generate a Flutter application.[39m
+[31m          [module]           Generate a project to add a Flutter module to an existing Android or iOS application.[39m
+[31m          [package]          Generate a shareable Flutter project containing modular Dart code.[39m
+[31m          [plugin]           Generate a shareable Flutter project containing an API in Dart code with a platform-specific implementation through method channels for[39m
+[31m                             Android, iOS, Linux, macOS, Windows, web, or any combination of these.[39m
+[31m          [plugin_ffi]       Generate a shareable Flutter project containing an API in Dart code with a platform-specific implementation through dart:ffi for Android, iOS,[39m
+[31m                             Linux, macOS, Windows, or any combination of these.[39m
+[31m          [skeleton]         Generate a List View / Detail View Flutter application that follows community best practices.[39m
+[31m[39m
+[31m-s, --sample=<id>            Specifies the Flutter code sample to use as the "main.dart" for an application. Implies "--template=app". The value should be the sample ID of[39m
+[31m                             the desired sample from the API documentation website (https://api.flutter.dev/). An example can be found at:[39m
+[31m                             https://api.flutter.dev/flutter/widgets/SingleChildScrollView-class.html[39m
+[31m-e, --[no-]empty             Specifies creating using an application template with a main.dart that is minimal, including no comments, as a starting point for a new[39m
+[31m                             application. Implies "--template=app".[39m
+[31m    --list-samples=<path>    Specifies a JSON output file for a listing of Flutter code samples that can be created with "--sample".[39m
+[31m[39m
+[31mRun "flutter help" to see global options.[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter/IntelliCrews]1;../IntelliCrews]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter/IntelliCrews\[0m[27m[24m[J[01;31m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hflutter create .[?1l>[?2004l
+]2;flutter create .]1;flutterDeveloper identity "Apple Development: joseph.riddle@intellitect.com (H3GDM723ZL)" selected for iOS code signing
+[31m"IntelliCrews" is not a valid Dart package name.[39m
+[31m[39m
+[31mThe name should be all lowercase, with underscores to separate words, "just_like_this".Use only basic Latin letters and Arabic digits: [a-z0-9_].Also, make sure the name is[39m
+[31ma valid Dart identifier—that it doesn't start with digits and isn't a reserved word.[39m
+[31mSee https://dart.dev/tools/pub/pubspec#name for more information.[39m
+[31mTry "intellicrews" instead.[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter/IntelliCrews]1;../IntelliCrews]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter/IntelliCrews\[0m[27m[24m[J[01;31m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hflutter create . --project-name intellite  crews[?1l>[?2004l
+]2;flutter create . --project-name intellicrews]1;flutterDeveloper identity "Apple Development: joseph.riddle@intellitect.com (H3GDM723ZL)" selected for iOS code signing
+Recreating project ....
+  pubspec.yaml (created)
+  README.md (created)
+  lib/main.dart (created)
+  test/widget_test.dart (created)
+  windows/runner/flutter_window.cpp (created)
+  windows/runner/utils.h (created)
+  windows/runner/utils.cpp (created)
+  windows/runner/runner.exe.manifest (created)
+  windows/runner/CMakeLists.txt (created)
+  windows/runner/win32_window.h (created)
+  windows/runner/Runner.rc (created)
+  windows/runner/win32_window.cpp (created)
+  windows/runner/resources/app_icon.ico (created)
+  windows/runner/main.cpp (created)
+  windows/runner/resource.h (created)
+  windows/runner/flutter_window.h (created)
+  windows/flutter/CMakeLists.txt (created)
+  windows/.gitignore (created)
+  windows/CMakeLists.txt (created)
+  ios/Runner.xcworkspace/contents.xcworkspacedata (created)
+  ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (created)
+  ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings (created)
+  ios/Runner/Info.plist (created)
+  ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png (created)
+  ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md (created)
+  ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json (created)
+  ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png (created)
+  ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png (created)
+  ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png (created)
+  ios/Runner/Base.lproj/LaunchScreen.storyboard (created)
+  ios/Runner/Base.lproj/Main.storyboard (created)
+  ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata (created)
+  ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (created)
+  ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings (created)
+  ios/Flutter/Debug.xcconfig (created)
+  ios/Flutter/Release.xcconfig (created)
+  ios/Flutter/AppFrameworkInfo.plist (created)
+  ios/.gitignore (created)
+  intellicrews.iml (created)
+  .gitignore (created)
+  web/favicon.png (created)
+  web/index.html (created)
+  web/manifest.json (created)
+  web/icons/Icon-maskable-512.png (created)
+  web/icons/Icon-192.png (created)
+  web/icons/Icon-maskable-192.png (created)
+  web/icons/Icon-512.png (created)
+  macos/Runner.xcworkspace/contents.xcworkspacedata (created)
+  macos/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (created)
+  macos/RunnerTests/RunnerTests.swift (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_32.png (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_16.png (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_256.png (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_64.png (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_512.png (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_128.png (created)
+  macos/Runner/Assets.xcassets/AppIcon.appiconset/app_icon_1024.png (created)
+  macos/Runner/DebugProfile.entitlements (created)
+  macos/Runner/Base.lproj/MainMenu.xib (created)
+  macos/Runner/MainFlutterWindow.swift (created)
+  macos/Runner/Configs/Debug.xcconfig (created)
+  macos/Runner/Configs/Release.xcconfig (created)
+  macos/Runner/Configs/Warnings.xcconfig (created)
+  macos/Runner/Configs/AppInfo.xcconfig (created)
+  macos/Runner/AppDelegate.swift (created)
+  macos/Runner/Info.plist (created)
+  macos/Runner/Release.entitlements (created)
+  macos/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist (created)
+  macos/Runner.xcodeproj/project.pbxproj (created)
+  macos/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme (created)
+  macos/Flutter/Flutter-Debug.xcconfig (created)
+  macos/Flutter/Flutter-Release.xcconfig (created)
+  macos/.gitignore (created)
+  android/app/src/profile/AndroidManifest.xml (created)
+  android/app/src/main/res/mipmap-mdpi/ic_launcher.png (created)
+  android/app/src/main/res/mipmap-hdpi/ic_launcher.png (created)
+  android/app/src/main/res/drawable/launch_background.xml (created)
+  android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png (created)
+  android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png (created)
+  android/app/src/main/res/values-night/styles.xml (created)
+  android/app/src/main/res/values/styles.xml (created)
+  android/app/src/main/res/drawable-v21/launch_background.xml (created)
+  android/app/src/main/res/mipmap-xhdpi/ic_launcher.png (created)
+  android/app/src/main/AndroidManifest.xml (created)
+  android/app/src/debug/AndroidManifest.xml (created)
+  android/settings.gradle (created)
+  android/gradle/wrapper/gradle-wrapper.properties (created)
+  android/gradle.properties (created)
+  android/.gitignore (created)
+  android/app/build.gradle (created)
+  android/app/src/main/kotlin/com/example/intellicrews/MainActivity.kt (created)
+  android/build.gradle (created)
+  android/intellicrews_android.iml (created)
+  ios/RunnerTests/RunnerTests.swift (created)
+  ios/Runner/Runner-Bridging-Header.h (created)
+  ios/Runner/AppDelegate.swift (created)
+  ios/Runner.xcodeproj/project.pbxproj (created)
+  ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme (created)
+  analysis_options.yaml (created)
+  .idea/runConfigurations/main_dart.xml (created)
+  .idea/libraries/Dart_SDK.xml (created)
+  .idea/libraries/KotlinJavaRuntime.xml (created)
+  .idea/modules.xml (created)
+  .idea/workspace.xml (created)
+  linux/main.cc (created)
+  linux/my_application.h (created)
+  linux/my_application.cc (created)
+  linux/flutter/CMakeLists.txt (created)
+  linux/.gitignore (created)
+  linux/CMakeLists.txt (created)
+Resolving dependencies... [38;5;245m(1.0s)[0m
+Downloading packages... 
+Got dependencies.
+Wrote 129 files.
+
+All done!
+You can find general documentation for Flutter at: https://docs.flutter.dev/
+Detailed API documentation is available at: https://api.flutter.dev/
+If you prefer video documentation, consider: https://www.youtube.com/c/flutterdev
+
+In order to run your application, type:
+
+  $ cd .
+  $ flutter run
+
+Your application code is in ./lib/main.dart.
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter/IntelliCrews]1;../IntelliCrews]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter/IntelliCrews\[0m[27m[24m[J[01;32m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004h[0m[27m[24m[J[01;32m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m) [33m✗[00m [Kfflutter run[?1l>[?2004l
+]2;flutter run]1;flutter^CConnected devices:
+^[[A[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter/IntelliCrews]1;../IntelliCrews]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter/IntelliCrews\[0m[27m[24m[J[01;32m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hflutter run -d chrome[?1l>[?2004l
+]2;flutter run -d chrome]1;flutterLaunching lib/main.dart on Chrome in debug mode...
+Waiting for connection from debug service on Chrome...                 ⣷⣯⣟⡿⢿⣻⣽⣷⣾⣽⣻⢿⡿⣟⣯⣷⣾⣷⣯⣟⡿⢿⣻⣽⣷⣾⣽⣻⢿⡿⣟⣯⣷⣾⣷⣯⣟⡿⢿⣻⣽⣷⣾⣽⣻⢿⡿⣟⣯⣷⣾⣷⣯⣟⡿⢿⣻⣽⣷⣾⣽⣻⢿⡿⣟⣯⣷⣾⣷⣯⣟⡿⢿⣻⣽     7.6s
+This app is linked to the debug service: ws://127.0.0.1:61366/8Rep2hE9J8o=/ws
+Debug service listening on ws://127.0.0.1:61366/8Rep2hE9J8o=/ws
+
+[31m🔥[1m  To hot restart changes while running, press "r" or "R".[22m[39m
+For a more detailed help message, press "h". To quit, press "q".
+
+A Dart VM Service on Chrome is available at: http://127.0.0.1:61366/8Rep2hE9J8o=
+The Flutter DevTools debugger and profiler on Chrome is available at: http://127.0.0.1:9101?uri=http://127.0.0.1:61366/8Rep2hE9J8o=
+Application finished.
+[1m[7m%[27m[1m[0m                                                                                                                                                                            ]2;josephriddle@Josephs-MacBook-Pro:~/source/flutter/IntelliCrews]1;../IntelliCrews]7;file://Josephs-MacBook-Pro.local/Users/josephriddle/source/flutter/IntelliCrews\[0m[27m[24m[J[01;32m➜  [36mIntelliCrews[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Wed Jul  3 08:19:43 2024
