@@ -70,7 +70,10 @@ class _MyHomePageState extends State<MyHomePage> {
             if (_cameraError != null)
               Text(_cameraError!)
             else if (_isCameraOn)
-              Camera(cameras: _cameras),
+              SizedBox.fromSize(
+                size: const Size(600, 400),
+                child: Camera(cameras: _cameras),
+              ),
           ],
         ),
       ),
