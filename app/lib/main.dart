@@ -42,18 +42,21 @@ class _MyHomePageState extends State<MyHomePage> {
       try {
         final cameras = await availableCameras();
         setState(() {
+          _isCameraOn = true;
           _cameras = cameras;
           _cameraError = null;
         });
       } on CameraException catch (error) {
         setState(() {
-          _cameraError = error.description;
+          _isCameraOn = false;
+          _cameraError = error.description ?? 'Failed to find a camera';
         });
       }
+    } else {
+      setState(() {
+        _isCameraOn = isCameraOn;
+      });
     }
-    setState(() {
-      _isCameraOn = isCameraOn;
-    });
   }
 
   @override
@@ -69,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             if (_cameraError != null)
               Text(_cameraError!)
-            else if (_isCameraOn)
+            else if (_isCameraOn && _cameras.isNotEmpty)
               SizedBox.fromSize(
                 size: const Size(600, 400),
                 child: Camera(cameras: _cameras),
