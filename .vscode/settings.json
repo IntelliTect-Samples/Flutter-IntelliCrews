@@ -1,8 +1,12 @@
 {
-  "cSpell.words": [
-    "Intelli"
-  ],
   "files.associations": {
     "typescript": "txt",
+  },
+  // Language specific settings
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
   }
 }
